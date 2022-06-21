@@ -406,7 +406,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[0].m_Value
       value: 
-      objectReference: {fileID: 592950484}
+      objectReference: {fileID: 2067387927}
     - target: {fileID: 3943474332033452246, guid: ed06378267a080f4c83e1c3ec7e39694,
         type: 3}
       propertyPath: m_Enabled
@@ -687,53 +687,6 @@ Transform:
   m_Father: {fileID: 60666996}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!28 &592950484
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Lightning_PositionMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 2
-  m_Width: 9
-  m_Height: 1
-  m_CompleteImageSize: 144
-  m_MipsStripped: 0
-  m_TextureFormat: 20
-  m_MipCount: 1
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMasterTextureLimit: 0
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 0
-  m_PlatformBlob: 
-  image data: 144
-  _typelessdata: 068185c0c3f58041703dcabf0000803f068185c05d8f5641809919be0000803f3f354ec04d9d334170f694bf0000803fdf4f89c03e0a074180142e3e0000803f68917dc0d8a3e840c0ccccbe0000803f9cc430c0b047a940e07a143f0000803f7a14aebf9c99494080ccccbd0000803f91ed7cc00052b83dd0cccc3e0000803f068185c000000000f6283c400000803f
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1001 &735719640
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1095,6 +1048,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: -22.210217
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253012990419024489, guid: 035bf1ba97d19214580cfe6f5a29fdc3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5126527961139664760, guid: 035bf1ba97d19214580cfe6f5a29fdc3,
         type: 3}
@@ -1967,6 +1925,53 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1998989925}
   m_PrefabAsset: {fileID: 0}
+--- !u!28 &2067387927
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Lightning_PositionMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 9
+  m_Height: 1
+  m_CompleteImageSize: 144
+  m_MipsStripped: 0
+  m_TextureFormat: 20
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMasterTextureLimit: 0
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 0
+  m_PlatformBlob: 
+  image data: 144
+  _typelessdata: 068185c0c3f58041703dcabf0000803f068185c05d8f5641809919be0000803f3f354ec04d9d334170f694bf0000803fdf4f89c03e0a074180142e3e0000803f68917dc0d8a3e840c0ccccbe0000803f9cc430c0b047a940e07a143f0000803f7a14aebf9c99494080ccccbd0000803f91ed7cc00052b83dd0cccc3e0000803f068185c000000000f6283c400000803f
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1001 &2084326372
 PrefabInstance:
   m_ObjectHideFlags: 0
