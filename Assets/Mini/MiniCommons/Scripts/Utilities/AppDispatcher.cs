@@ -16,7 +16,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Min.Common.Utilities
+namespace Mini.Common.Utilities
 {
     /// Author: Pim de Witte (pimdewitte.com) and contributors, https://github.com/PimDeWitte/UnityMainThreadDispatcher
     /// <summary>
